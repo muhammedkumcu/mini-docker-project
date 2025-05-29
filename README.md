@@ -13,7 +13,10 @@ Bu proje, Docker Compose ile çoklu servisi (Node.js ve MySQL) çalıştıran ba
 
 ## 🚀 Kurulum ve Çalıştırma
 
-1️⃣ Projeyi klonla:  
+1️⃣ Projeyi klonla ve çalıştır:  
 ```bash
 git clone https://github.com/muhammedkumcu/mini-docker-project.git
 cd mini-docker-project
+docker compose up --build -d
+```
+Adres: http://localhost:3001
